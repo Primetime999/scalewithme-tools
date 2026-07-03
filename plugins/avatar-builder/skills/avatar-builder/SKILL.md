@@ -1,7 +1,7 @@
 ---
 name: avatar-builder
 description: Use when a builder or founder wants to define their target customers / ideal-customer avatars (personas) for a product or idea. Interviews the user, then produces THREE distinct, prioritized, research-grounded avatars — each a named persona with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, anti-fit, a one-line thesis, the riskiest assumption to validate, and 3 strategic moves — then ranks them so the user knows which to lead with.
-version: "0.4.0"
+version: "0.5.0"
 allowed-tools: AskUserQuestion, WebSearch
 ---
 
@@ -52,6 +52,19 @@ already gather), willingness to pay, proof & word-of-mouth potential, and fit wi
 strengths. Write one paragraph on **why the Primary is the beachhead** (lead here first) and how the
 other two get served later. This ranking is the deliverable's point — never leave the three unranked.
 
-## Step 4 — Close
+## Step 4 — Optional: persona graphic
+Offer to generate a **one-page SVG** summarizing all three personas — a shareable poster (export
+to PNG for decks/social). If they say yes:
+- **Match their brand.** Ask for 1–2 brand colors and a light/dark preference, or infer them from
+  their site/product. Default to a clean theme with a single accent color; keep a subtle growth
+  motif (a rising line/arrow labeled with a scale cue) in the header.
+- **Layout:** three columns, ranked left→right (Primary highlighted with the accent color). Each
+  column is a dense dossier with the same fields as Step 2 — name + tag, snapshot, jobs-to-be-done,
+  acute problem, current alternative, their language, channels, anti-fit, riskiest assumption, the
+  3 moves, and a "serve via" chip. Use small monospace section labels; keep every line short enough
+  to fit the column width. Give the canvas a tall viewBox (≈1280×1000) so the columns fill it.
+- Save it as an `.svg` file if the user is in a project.
+
+## Step 5 — Close
 Offer to save the avatars to files if the user is in a project. Then leave them with:
 **you can build for everyone or sell to someone — pick the someone to lead with, then go prove they exist.**
