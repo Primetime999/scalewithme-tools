@@ -1,6 +1,6 @@
 {
   "name": "avatar-builder",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Asks a short progress-counted interview, then produces THREE distinct, prioritized customer avatars (Primary/Secondary/Tertiary) at equal depth \u2014 persona, motivations, channels, riskiest assumption, and 3 strategic moves each \u2014 delivered as an overview plus one detailed file per persona (structured text on CLI). Optional brand-matched SVG poster.",
   "author": {
     "name": "ScaleWithMe"
