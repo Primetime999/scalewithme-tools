@@ -64,6 +64,16 @@ Personify it — a representative human, not a category.
 **Riskiest assumption + validation plan** — the one belief that, if wrong, breaks this avatar,
 and how to test it fast: talk to 5–10 real ones, check the watering holes, or run a small offer.
 
-## Step 3 — Close
+## Step 3 — So what: 3 moves to make now
+The avatar is worthless unless it changes what the user *does*. End with **three concrete,
+persona-specific recommendations** — the "so what." One move per lever, each specific to this
+persona (never generic advice):
+1. **Message** — how to position/say it so it lands on this persona's emotional + social jobs, in their own words (quote a phrase from "Their language").
+2. **Channel** — where to show up first (their prioritized watering hole or a hidden gem) and what format wins there.
+3. **Offer/product** — how to shape the offer or product around their jobs-to-be-done, constraints, and the gap their current alternative leaves.
+
+For each: state the move in one line, then one line on *why it fits this persona*.
+
+## Step 4 — Close
 Offer to save the avatar to a file if the user is in a project. Then leave them with:
 **you can build for everyone or sell to someone — not both. Name the someone, then go prove they exist.**

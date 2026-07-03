@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "avatar-builder",
-      "description": "Turn a rough product idea into a personified, research-grounded customer avatar — a named persona with demographics, motivations, the channels where they already pay attention, and the riskiest assumption to validate.",
+      "description": "Turn a rough product idea into a personified, research-grounded customer avatar — a named persona with demographics, motivations, channels where they pay attention, the riskiest assumption to validate, and 3 strategic moves (message, channel, offer) tailored to that persona.",
       "author": {
         "name": "ScaleWithMe"
       },

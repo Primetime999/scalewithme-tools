@@ -1,7 +1,7 @@
 {
   "name": "avatar-builder",
-  "version": "0.2.0",
-  "description": "Turn a rough product idea into a personified, research-grounded customer avatar. Interviews you, then outputs a named persona with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, the channels where they already pay attention (one to prioritize), anti-fit, a one-line thesis, and the riskiest assumption to validate.",
+  "version": "0.3.0",
+  "description": "Turn a rough product idea into a personified, research-grounded customer avatar — then tell you what to do about it. Interviews you, then outputs a named persona with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, anti-fit, a one-line thesis, the riskiest assumption to validate, and 3 concrete strategic moves (message, channel, offer) tailored to that persona.",
   "author": {
     "name": "ScaleWithMe"
   },
