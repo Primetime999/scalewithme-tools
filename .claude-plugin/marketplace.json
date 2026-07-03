@@ -1,7 +1,7 @@
 {
   "name": "scalewithme",
   "metadata": {
-    "description": "Free commercial-layer tools for builders — invokable inside Claude Code. Build the tech, then sell it."
+    "description": "Free commercial-layer tools for builders \u2014 invokable inside Claude Code. Build the tech, then sell it."
   },
   "owner": {
     "name": "ScaleWithMe"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "avatar-builder",
-      "description": "Turn a rough product idea into a personified, research-grounded customer avatar — a named persona with demographics, motivations, channels where they pay attention, the riskiest assumption to validate, and 3 strategic moves (message, channel, offer) tailored to that persona.",
+      "description": "Interview a builder, then produce THREE distinct, prioritized customer avatars (Primary/Secondary/Tertiary) at equal depth \u2014 persona, motivations, channels, riskiest assumption, and 3 strategic moves each.",
       "author": {
         "name": "ScaleWithMe"
       },

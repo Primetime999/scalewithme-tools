@@ -1,12 +1,20 @@
 {
   "name": "avatar-builder",
-  "version": "0.3.0",
-  "description": "Turn a rough product idea into a personified, research-grounded customer avatar — then tell you what to do about it. Interviews you, then outputs a named persona with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, anti-fit, a one-line thesis, the riskiest assumption to validate, and 3 concrete strategic moves (message, channel, offer) tailored to that persona.",
+  "version": "0.4.0",
+  "description": "Interview a builder, then produce THREE distinct, prioritized customer avatars at equal depth \u2014 each a named persona with demographics, motivations (jobs-to-be-done), fears/desires, acute problem, current alternatives, their language, a prioritized channel map, anti-fit, one-line thesis, riskiest assumption, and 3 strategic moves \u2014 ranked Primary/Secondary/Tertiary so you know who to lead with.",
   "author": {
     "name": "ScaleWithMe"
   },
   "homepage": "https://github.com/Primetime999/scalewithme-tools",
   "repository": "https://github.com/Primetime999/scalewithme-tools",
   "license": "MIT",
-  "keywords": ["avatar", "ideal-customer", "positioning", "marketing", "founder", "best-fit-customer", "gtm"]
+  "keywords": [
+    "avatar",
+    "ideal-customer",
+    "positioning",
+    "marketing",
+    "founder",
+    "best-fit-customer",
+    "gtm"
+  ]
 }

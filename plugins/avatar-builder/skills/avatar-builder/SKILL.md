@@ -1,21 +1,23 @@
 ---
 name: avatar-builder
-description: Use when a builder or founder wants to define their target customer / ideal-customer avatar (persona) for a product or idea. Interviews the user, then produces a personified, research-grounded avatar — a named persona with demographics, motivations (jobs-to-be-done), fears and desires, the acute problem, current alternatives, their exact language, the channels where they already pay attention (with one to prioritize), anti-fit, a one-line thesis, and the riskiest assumption to validate first.
-version: "0.3.0"
+description: Use when a builder or founder wants to define their target customers / ideal-customer avatars (personas) for a product or idea. Interviews the user, then produces THREE distinct, prioritized, research-grounded avatars — each a named persona with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, anti-fit, a one-line thesis, the riskiest assumption to validate, and 3 strategic moves — then ranks them so the user knows which to lead with.
+version: "0.4.0"
 allowed-tools: AskUserQuestion, WebSearch
 ---
 
 # Avatar Builder
 
-Turn a rough product idea into a **personified, research-grounded customer avatar** the user can
-build messaging, channels, and offers around. Enforce two rules throughout:
-- A best-fit avatar is **narrow on purpose** — reject "everyone" and "small businesses."
-- Every field is a **hypothesis to validate**, not a fact. The fastest way to be wrong is to
-  invent a persona from assumptions. Mark inferred fields `[assumption]`.
+Turn a rough product idea into **three distinct, prioritized customer avatars**. Most products have
+more than one plausible buyer; naming three and ranking them tells the user who to lead with.
+
+Rules, enforced throughout:
+- Each avatar is **narrow and genuinely distinct** — three different people (different jobs and
+  contexts), not three flavors of one. Reject "everyone."
+- Every field is a **hypothesis to validate**. Mark inferred fields `[assumption]`.
+- **Same depth for all three.** No avatar gets more detail than the others.
 
 ## Step 1 — Interview
-Ask these one at a time and wait for each answer. Push back when answers are vague — which *one*
-person, in which situation, feels this most acutely?
+Ask these one at a time and wait for each answer. Push back on vague answers.
 1. What did you build (or want to build), in one sentence?
 2. Who have you seen get the most value — who *lit up* using it? Describe a specific real person if you can.
 3. What painful, expensive, or recurring problem does it kill for them?
@@ -23,57 +25,33 @@ person, in which situation, feels this most acutely?
 5. In their own words, how do they describe the problem? (ask for real quotes/messages)
 6. What do you already know about them — rough age, role, where they spend time online?
 
-If the user has little data, proceed but mark the thin parts `[assumption]`.
+If the user has little data, proceed but mark thin parts `[assumption]`.
 
-## Step 2 — Produce the Avatar
-Personify it — a representative human, not a category.
+## Step 2 — Produce THREE avatars
+Identify three distinct best-fit segments. For **each** avatar, output this full block — same depth
+for all three:
 
-**Persona snapshot**
-- **Name + tag** — a representative first name that fits the demographic, plus a one-liner (e.g. "Indie-hacker Ian, 34").
-- **Age / life stage**, **role or title**, **location type** (e.g. remote, mid-size US city).
-- **Household** — living situation, family, anything shaping their time, money, and risk tolerance.
-- **Income & constraints**, **education**, **tech comfort**.
+- **Name + tag** — a representative first name fitting the demographic + a one-liner (e.g. "Indie-hacker Ian, 34").
+- **Persona snapshot** — age/life stage, role/title, location type, **household**, income & constraints, education, tech comfort.
+- **A day in their life** — when/where the problem shows up, and the trigger moment.
+- **Motivations (jobs to be done)** — functional / emotional / social job.
+- **Drivers** — top fears/frustrations and desires/aspirations.
+- **Goals & pain** — 1–2 measurable goals + the specific, quantified pain.
+- **The acute problem** — the one that makes them act now.
+- **Current alternative** — what they use instead, and why it fails them.
+- **Their language** — 5–8 exact phrases they'd say.
+- **Channel map** — watering holes they already frequent (subreddits, podcasts, creators, newsletters, search terms); the one channel to prioritize + why; hidden gems (small, high-engagement, low-competition); and a note to validate via SparkToro or lurking. Use WebSearch if it sharpens this.
+- **Anti-fit** — who this is explicitly NOT for.
+- **One-line thesis** — "[name] who struggles with [problem] because [current alternative] fails at [gap]."
+- **Riskiest assumption + validation plan.**
+- **So what — 3 moves:** message / channel / offer, each one line + one line on why it fits this persona.
 
-**A day in their life** — 2–3 sentences: when and where the problem shows up, and the trigger moment.
-
-**Motivations — jobs to be done**
-- **Functional job** — the practical outcome they want.
-- **Emotional job** — how they want to *feel* (e.g. competent, in control, legitimate).
-- **Social job** — how they want to be *seen* by peers, customers, or a boss.
-
-**Drivers** — their top **fears/frustrations** and top **desires/aspirations**.
-
-**Goals & pain** — 1–2 measurable goals and the specific, quantified pain.
-
-**The acute problem** — the one that makes them act *now*.
-
-**Current alternative** — what they use instead, and why it fails them.
-
-**Their language** — 5–8 exact phrases they'd say (voice-of-customer, for hooks and copy).
-
-**Where they pay attention (channel map)** — how you actually reach them:
-- **Watering holes** they already frequent: specific subreddits, podcasts, YouTubers/creators, newsletters, communities, and the **search terms/questions** they Google.
-- The **ONE channel to prioritize first**, with a reason (highest concentration of their attention × your realistic ability to show up there).
-- **Hidden gems** — smaller, high-engagement, low-competition venues (a niche subreddit, one specific creator). These usually beat the biggest platforms because they're far less saturated.
-- **Validate, don't guess:** confirm with real audience research — an audience-intelligence tool like SparkToro (shows what your audience reads, listens to, watches, and follows), or free proxies: search their terms, lurk the subreddits, and check who your best users already follow. If WebSearch is available and it would sharpen the channel map, do a quick pass to sanity-check where this audience gathers.
-
-**Anti-fit** — who this is explicitly *NOT* for. Say it plainly.
-
-**One-line thesis** — "[named persona] who struggles with [problem] because [current alternative] fails at [gap]."
-
-**Riskiest assumption + validation plan** — the one belief that, if wrong, breaks this avatar,
-and how to test it fast: talk to 5–10 real ones, check the watering holes, or run a small offer.
-
-## Step 3 — So what: 3 moves to make now
-The avatar is worthless unless it changes what the user *does*. End with **three concrete,
-persona-specific recommendations** — the "so what." One move per lever, each specific to this
-persona (never generic advice):
-1. **Message** — how to position/say it so it lands on this persona's emotional + social jobs, in their own words (quote a phrase from "Their language").
-2. **Channel** — where to show up first (their prioritized watering hole or a hidden gem) and what format wins there.
-3. **Offer/product** — how to shape the offer or product around their jobs-to-be-done, constraints, and the gap their current alternative leaves.
-
-For each: state the move in one line, then one line on *why it fits this persona*.
+## Step 3 — Prioritize the three
+Rank them **Primary / Secondary / Tertiary.** Score each on: acute pain, reachability (where they
+already gather), willingness to pay, proof & word-of-mouth potential, and fit with the builder's
+strengths. Write one paragraph on **why the Primary is the beachhead** (lead here first) and how the
+other two get served later. This ranking is the deliverable's point — never leave the three unranked.
 
 ## Step 4 — Close
-Offer to save the avatar to a file if the user is in a project. Then leave them with:
-**you can build for everyone or sell to someone — not both. Name the someone, then go prove they exist.**
+Offer to save the avatars to files if the user is in a project. Then leave them with:
+**you can build for everyone or sell to someone — pick the someone to lead with, then go prove they exist.**
