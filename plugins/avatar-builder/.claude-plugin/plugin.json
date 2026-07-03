@@ -1,7 +1,7 @@
 {
   "name": "avatar-builder",
-  "version": "0.1.0",
-  "description": "Turn a rough product idea into a sharp best-fit-customer thesis you can actually sell to. Interviews you, then outputs a structured avatar (best-fit customer, problem, current alternative, their language, anti-fit, riskiest assumption).",
+  "version": "0.2.0",
+  "description": "Turn a rough product idea into a personified, research-grounded customer avatar. Interviews you, then outputs a named persona with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, the channels where they already pay attention (one to prioritize), anti-fit, a one-line thesis, and the riskiest assumption to validate.",
   "author": {
     "name": "ScaleWithMe"
   },

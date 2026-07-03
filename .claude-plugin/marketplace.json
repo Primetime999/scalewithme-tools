@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "avatar-builder",
-      "description": "Turn a rough product idea into a sharp best-fit-customer thesis you can actually sell to. Interviews you, then outputs a structured avatar.",
+      "description": "Turn a rough product idea into a personified, research-grounded customer avatar — a named persona with demographics, motivations, the channels where they already pay attention, and the riskiest assumption to validate.",
       "author": {
         "name": "ScaleWithMe"
       },
