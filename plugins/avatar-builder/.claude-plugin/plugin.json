@@ -1,7 +1,7 @@
 {
   "name": "avatar-builder",
-  "version": "0.5.0",
-  "description": "Interview a builder, then produce THREE distinct, prioritized customer avatars at equal depth \u2014 each a named persona with demographics, motivations (jobs-to-be-done), fears/desires, acute problem, current alternatives, their language, a prioritized channel map, anti-fit, one-line thesis, riskiest assumption, and 3 strategic moves \u2014 ranked Primary/Secondary/Tertiary so you know who to lead with. Optionally renders a one-page, brand-matched SVG persona poster.",
+  "version": "0.6.0",
+  "description": "Asks a short progress-counted interview, then produces THREE distinct, prioritized customer avatars (Primary/Secondary/Tertiary) at equal depth \u2014 persona, motivations, channels, riskiest assumption, and 3 strategic moves each \u2014 delivered as an overview plus one detailed file per persona (structured text on CLI). Optional brand-matched SVG poster.",
   "author": {
     "name": "ScaleWithMe"
   },

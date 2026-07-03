@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "avatar-builder",
-      "description": "Interview a builder, then produce THREE distinct, prioritized customer avatars (Primary/Secondary/Tertiary) at equal depth \u2014 persona, motivations, channels, riskiest assumption, and 3 strategic moves each.",
+      "description": "Progress-counted interview \u2192 three prioritized customer avatars, delivered as an overview + one detailed file per persona. Optional brand-matched SVG poster.",
       "author": {
         "name": "ScaleWithMe"
       },
