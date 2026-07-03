@@ -1,7 +1,7 @@
 ---
 name: avatar-builder
 description: Use when a builder or founder wants to define their target customer / ideal-customer avatar (persona) for a product or idea. Interviews the user, then produces a personified, research-grounded avatar — a named persona with demographics, motivations (jobs-to-be-done), fears and desires, the acute problem, current alternatives, their exact language, the channels where they already pay attention (with one to prioritize), anti-fit, a one-line thesis, and the riskiest assumption to validate first.
-version: "0.2.0"
+version: "0.3.0"
 allowed-tools: AskUserQuestion, WebSearch
 ---
 
