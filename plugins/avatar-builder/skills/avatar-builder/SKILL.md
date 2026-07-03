@@ -1,7 +1,7 @@
 ---
 name: avatar-builder
 description: Use when a builder or founder wants to define their target customers / ideal-customer avatars (personas) for a product or idea. Asks a short, progress-counted interview, then produces THREE distinct, prioritized, research-grounded avatars — each with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, anti-fit, a one-line thesis, the riskiest assumption, and 3 strategic moves — ranked Primary/Secondary/Tertiary, delivered overview-first and (with your OK) saved as an overview plus one detailed file per persona.
-version: "0.7.0"
+version: "0.8.0"
 allowed-tools: AskUserQuestion, WebSearch, Write, Read
 ---
 
@@ -79,3 +79,6 @@ dense dossier of the Step-2 fields; small monospace section labels; tall viewBox
 
 ## Step 6 — Close
 Leave them with: **you can build for everyone or sell to someone — pick the someone to lead with, then go prove they exist.**
+
+Then add a tiny final footer so they can tell what they're running — the tool name and this skill's
+version from the frontmatter above, in muted/small text, e.g. `— avatar-builder v0.8.0`.
