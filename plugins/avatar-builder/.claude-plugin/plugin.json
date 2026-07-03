@@ -1,0 +1,12 @@
+{
+  "name": "avatar-builder",
+  "version": "0.1.0",
+  "description": "Turn a rough product idea into a sharp best-fit-customer thesis you can actually sell to. Interviews you, then outputs a structured avatar (best-fit customer, problem, current alternative, their language, anti-fit, riskiest assumption).",
+  "author": {
+    "name": "ScaleWithMe"
+  },
+  "homepage": "https://github.com/Primetime999/scalewithme-tools",
+  "repository": "https://github.com/Primetime999/scalewithme-tools",
+  "license": "MIT",
+  "keywords": ["avatar", "ideal-customer", "positioning", "marketing", "founder", "best-fit-customer", "gtm"]
+}

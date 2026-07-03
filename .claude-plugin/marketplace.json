@@ -1,0 +1,21 @@
+{
+  "name": "scalewithme",
+  "metadata": {
+    "description": "Free commercial-layer tools for builders — invokable inside Claude Code. Build the tech, then sell it."
+  },
+  "owner": {
+    "name": "ScaleWithMe"
+  },
+  "plugins": [
+    {
+      "name": "avatar-builder",
+      "description": "Turn a rough product idea into a sharp best-fit-customer thesis you can actually sell to. Interviews you, then outputs a structured avatar.",
+      "author": {
+        "name": "ScaleWithMe"
+      },
+      "source": "./plugins/avatar-builder",
+      "category": "productivity",
+      "homepage": "https://github.com/Primetime999/scalewithme-tools"
+    }
+  ]
+}
