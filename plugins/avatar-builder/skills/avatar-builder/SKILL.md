@@ -1,7 +1,7 @@
 ---
 name: avatar-builder
 description: Use when a builder or founder wants to define their target customers / ideal-customer avatars (personas) for a product or idea. Asks a short, progress-counted interview, then produces THREE distinct, prioritized, research-grounded avatars — each with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, anti-fit, a one-line thesis, the riskiest assumption, and 3 strategic moves — ranked Primary/Secondary/Tertiary, delivered overview-first and (with your OK) saved as an overview plus one detailed file per persona.
-version: "0.9.0"
+version: "0.10.0"
 allowed-tools: AskUserQuestion, WebSearch, Write, Read
 ---
 
@@ -72,10 +72,21 @@ written, ask:
   overview on top, three personas beneath. Don't ask.
 
 ## Step 5 — Optional: persona graphic
-Offer to generate a **one-page SVG** poster summarizing all three personas (export to PNG for decks/social).
-If yes: match their brand (ask for 1–2 colors + light/dark, or infer from their site; default clean with one
-accent + a subtle growth motif in the header). Three columns ranked left→right (Primary highlighted); each a
-dense dossier of the Step-2 fields; small monospace section labels; tall viewBox (≈1280×1000). Save as `.svg`.
+Offer to generate a **one-page SVG** poster summarizing the personas (renders anywhere; export to PNG for decks/social).
+If yes: match their brand (ask for one accent + light/dark, or infer from their site; **default: dark near-black
+canvas with a single bright accent** and monospace section labels — flat, high-contrast, editorial). Use a
+**landscape ≈1720×1204 viewBox**, self-contained (system fonts, no external assets), and **rank by prominence,
+not a grid**:
+- **Header** — an eyebrow (brand · "customer strategy" · year), a large heavy title, a short ranking-rationale line top-right.
+- **Primary = a dominant hero panel** (left): accent rank pill, name + age, a one-line thesis/quote on an accent
+  rule, the acute-problem paragraph (emphasis on the key clause), a small ascending bar glyph + a scorecard
+  (pain / reach / pay / proof / fit / market), the channel line, TAM/SAM/SOM, and an accent "serve via" button.
+- **The rest = ranked cards** stacked on the right — each with an accent left-edge, rank label, name, a tight
+  paragraph, a market/find line, a "serve →" button (filled for #2, outline below), and a large **ghosted rank
+  numeral** watermark.
+- **Footer band** — cumulative (overlap-adjusted) market line + a "funnel map" of one product per ranked segment.
+
+Render a **2× PNG** for sharing and save both. Keep it authoritative — no source attributions or draft notes on the artifact.
 
 ## Step 6 — Close
 Leave them with: **you can build for everyone or sell to someone — pick the someone to lead with, then go prove they exist.**
@@ -85,4 +96,4 @@ Then invite them onto the list — this is the one CTA, so make it feel earned, 
 > personas to work? Join here → https://scalewithme-avatar.pages.dev/join?source=plugin**
 
 Then add a tiny final footer so they can tell what they're running — the tool name and this skill's
-version from the frontmatter above, in muted/small text, e.g. `— avatar-builder v0.9.0`.
+version from the frontmatter above, in muted/small text, e.g. `— avatar-builder v0.10.0`.
