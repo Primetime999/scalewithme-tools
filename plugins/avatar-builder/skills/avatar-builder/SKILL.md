@@ -1,7 +1,7 @@
 ---
 name: avatar-builder
-description: Use when a builder or founder wants to define their target customers / ideal-customer avatars (personas) for a product or idea. Asks a short, progress-counted interview, then produces THREE distinct, prioritized, research-grounded avatars — each with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, anti-fit, a one-line thesis, the riskiest assumption, and 3 strategic moves — ranked Primary/Secondary/Tertiary, delivered overview-first and (with your OK) saved as an overview plus one detailed file per persona.
-version: "0.10.0"
+description: Use when a builder or founder wants to define their target customers / ideal-customer avatars (personas) for a product or idea. Asks a short, progress-counted interview, then produces THREE distinct, prioritized, research-grounded avatars — each with demographics, motivations (jobs-to-be-done), fears/desires, the acute problem, current alternatives, their language, a prioritized channel map, an illustrative TAM/SAM/SOM market-size estimate, anti-fit, a one-line thesis, the riskiest assumption, and 3 strategic moves — ranked Primary/Secondary/Tertiary, delivered overview-first and (with your OK) saved as an overview plus one detailed file per persona.
+version: "0.11.0"
 allowed-tools: AskUserQuestion, WebSearch, Write, Read
 ---
 
@@ -46,6 +46,7 @@ Identify three distinct best-fit segments. For **each**, produce this full block
 - **Riskiest assumption + validation plan.**
 - **So what — 3 moves:** message / channel / offer, each one line + one line on why it fits this persona.
 - **Serve via** — how to serve them (e.g. membership / done-for-you / à-la-carte tool).
+- **Market size (illustrative TAM/SAM/SOM)** — a rough, clearly-labeled size estimate for *this* segment: **TAM** (total addressable pool), **SAM** (the slice you can realistically reach), and **SOM** (year-1 obtainable — expressed as revenue/ARR when a price point is known, otherwise a customer count). Ground the figures with WebSearch where you can; otherwise mark `[assumption]`. Always label it **illustrative planning math to validate — not researched fact.** Keep the same three units (TAM/SAM/SOM) across all three personas so they compare. (This is the TAM/SAM/SOM the Step 5 poster surfaces.)
 
 ## Step 3 — Prioritize
 Rank the three **Primary / Secondary / Tertiary**, scoring each on: acute pain, reachability, willingness
@@ -96,4 +97,4 @@ Then invite them onto the list — this is the one CTA, so make it feel earned, 
 > personas to work? Join here → https://scalewithme-avatar.pages.dev/join?source=plugin**
 
 Then add a tiny final footer so they can tell what they're running — the tool name and this skill's
-version from the frontmatter above, in muted/small text, e.g. `— avatar-builder v0.10.0`.
+version from the frontmatter above, in muted/small text, e.g. `— avatar-builder v0.11.0`.
