@@ -1,7 +1,7 @@
 {
   "name": "avatar-builder",
-  "version": "0.10.0",
-  "description": "Asks a short progress-counted interview, then produces THREE distinct, prioritized customer avatars (Primary/Secondary/Tertiary) at equal depth \u2014 persona, motivations, channels, riskiest assumption, and 3 strategic moves each \u2014 delivered as an overview plus one detailed file per persona (structured text on CLI). Optional brand-matched SVG poster.",
+  "version": "0.11.0",
+  "description": "Asks a short progress-counted interview, then produces THREE distinct, prioritized customer avatars (Primary/Secondary/Tertiary) at equal depth \u2014 persona, motivations, channels, an illustrative TAM/SAM/SOM market-size estimate, riskiest assumption, and 3 strategic moves each \u2014 delivered as an overview plus one detailed file per persona (structured text on CLI). Optional brand-matched SVG poster.",
   "author": {
     "name": "ScaleWithMe"
   },
